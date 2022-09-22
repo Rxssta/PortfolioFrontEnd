@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    
+}
+
+#Encabezado {
+    display: flex;
+    align-content: center;
+    background-color: #171a21;
+    height: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav span{
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+ul li {
+    width: 30px;
+    height: 30%;
+    font-size: 25px;
+}
+
+.content{
+    margin:0px;
+    
+}
+
+.sect{
+    width: 60%;
+    min-height: 500px;
+    height: 1350px;
+    margin:0px auto;
+    background: rgb(9,243,99);
+    background: linear-gradient(38deg, rgba(9,243,99,0.24) 2%, rgba(20,60,68,0.93) 37%, rgba(46,13,36,0.93) 76%);
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+#principal{
+    display: flex;
+}
+
+#info{
+    flex-direction:column;
+    margin-left: 7rem;
+    padding: 1rem;
+}
+
+#info2{    
+    margin-top: 1rem;
+    margin-bottom: 0.5em;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    width: 250px;
+    background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+.infoge{
+    margin-top: 0.9em;
+    margin-right: 0.5em;
+    text-align: right;
+} 
+
+#fotoperfil {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nombre{
+    margin-top: 20px;
+}
+
+
+#unlam{
+    border: 5px solid #85C1E9 ;
+}
+
+#ingles{
+    border: 5px solid #85C1E9;
+}
+
+#secundario{
+    border: 5px solid #85C1E9;
+}
+
+#category{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start
+}
+
+.categoria{
+    background-color: rgba( 0, 0, 0, 0.3 );
+    margin: 1rem;  
+    padding: 1rem;  
+
+}
+
+.categoria h3{
+    background-color:powderblue; color:black;
+}
+
+#Educacion{
+    justify-content: center;
+    align-content: space-around;
+    width: 40rem;
+}
+
+#Habilidades{
+    width: 300px;
+    margin-top: 1rem;
+    background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+
+.file{
+    display: flex;
+    flex-direction: column;
+    padding: 0.55rem;
+}
+
+#Experiencia{
+    width: 15rem;
+}
+
+#Proyectos{
+    width: 44rem;
+}
+
+#prox{
+    width: 673px;
+}
